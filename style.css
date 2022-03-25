@@ -1,0 +1,32 @@
+.wiki-container {
+    display: flex;justify-content: space-between; font-family: Arial, Helvetica, sans-serif;
+ }
+ .flex-container > div{
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;line-height: 75px;
+ }
+ .nav {
+    list-style-type: none;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+  }  .nav li {
+    display: inline-block;
+    font-size: 12px;
+    padding: 1px;
+  }
+  .Menu{
+      box-shadow: 0px 4px 8px 0px;
+      border-color: lightgray;
+      border-right-style: solid;
+  }
+  .image {
+      margin-block: 100px;
+  }
+  .class{
+      border-bottom:solid  ;
+      border-color: black;
+  }
